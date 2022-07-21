@@ -1,5 +1,5 @@
 # sturdy-broccoli
-We don't reall know what this project is about. Literally everything is randomized, even the title. 🤷‍♂️🤷‍♂️🤷‍♂️  
+We don't really know what this project is about. Literally everything is randomized, even the title. 🤷‍♂️🤷‍♂️🤷‍♂️  
 
 ## What we know so far:
 - 2D game
