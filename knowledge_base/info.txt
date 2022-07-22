@@ -1,0 +1,8 @@
+----------------------------------------------------------------
+
+The point of this folder is to gather notes and useful information to the project.
+This way everyone in the group has the opportunity to check out stuff that is required for the project.
+Some of the assignments require you to write some notes about a subject when you did some research,
+you should put those notes in the notes folder in the knowledge base.
+
+----------------------------------------------------------------
