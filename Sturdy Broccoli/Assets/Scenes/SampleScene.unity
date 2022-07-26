@@ -157,8 +157,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 504208129}
-  lockrotation: 1
-  ownTransform: {fileID: 504208128}
   spriteRenderer: {fileID: 504208127}
 --- !u!61 &504208126
 BoxCollider2D:
@@ -274,7 +272,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
