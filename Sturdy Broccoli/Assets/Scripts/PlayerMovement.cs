@@ -10,25 +10,12 @@ public class PlayerMovement : MonoBehaviour
 
     // public Animator animator;
 
-    public SpriteRenderer spriteRenderer;
     void Start(){
     }
     // Update is called once per frame
     void Update()
     {
-
-        if (movement.x < 0)
-        {
-            spriteRenderer.flipX = true;
-        }
-        else if (movement.x > 0)
-        {
-            spriteRenderer.flipX = false;
-        }
-
-
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        // lmao cringe
     }
 
     // Update is called once per tick
