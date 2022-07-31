@@ -12,6 +12,6 @@ public class MainScript : MonoBehaviour
         Application.Quit();
     }
     public void OnOptions(){
-        Debug.Log("lmao does it look like we have options hahaha you idiot");
+        Debug.Log("lmao does it look like we have options");
     }
 }
