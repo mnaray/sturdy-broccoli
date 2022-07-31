@@ -9,6 +9,7 @@ public class MainScript : MonoBehaviour
         SceneManager.LoadScene("PrimaryScene");
     }
     public void OnQuit(){
+        print("QUITTING THE GAME!");
         Application.Quit();
     }
     public void OnOptions(){
