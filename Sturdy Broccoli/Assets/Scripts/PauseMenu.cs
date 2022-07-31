@@ -12,7 +12,16 @@ public class PauseMenu : MonoBehaviour
     {
         // opens the pause menu and freezes the game
         pauseMenu.SetActive(!pauseMenu.activeSelf);
-        Time.timeScale = 0f;
+        
+        // checks if game is paused and toggles freeze accordingly
+        if (pauseMenu.activeSelf)
+        {
+            Time.timeScale = 0f;
+        } 
+        else
+        {
+            Time.timeScale = 1f;
+        }
     }
 
     public void Resume()
