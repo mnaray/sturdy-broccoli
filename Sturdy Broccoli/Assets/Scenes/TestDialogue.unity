@@ -648,6 +648,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1914521682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7241301009274692009, guid: 50bd4c20b301c5107b7a245e1c8a0c7a, type: 3}
+  m_PrefabInstance: {fileID: 733706169}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1945814196
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +778,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myConversation: {fileID: 1645664397}
-  player: {fileID: 2124268820}
+  playerRB: {fileID: 2124268820}
+  playerObject: {fileID: 1914521682}
+  interactionRadius: 2
 --- !u!224 &2052008419 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3900108755196472087, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}

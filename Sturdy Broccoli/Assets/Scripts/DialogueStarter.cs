@@ -7,7 +7,9 @@ using UnityEngine.EventSystems;
 public class DialogueStarter : MonoBehaviour, IPointerDownHandler
 {
     public NPCConversation myConversation;
-    public Rigidbody2D player;
+    public Rigidbody2D playerRB;
+    public GameObject playerObject;
+    public float interactionRadius = 1.0f;
 
     public void StartConversation()
     {
@@ -16,17 +18,18 @@ public class DialogueStarter : MonoBehaviour, IPointerDownHandler
 
     public void DisableMovement()
     {
-        player.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
+        playerRB.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
     }
 
     public void EnableMovement()
     {
-        player.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
+        playerRB.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        if (!ConversationManager.Instance.IsConversationActive)
+        if (!ConversationManager.Instance.IsConversationActive
+        && Vector2.Distance(playerObject.transform.position, transform.position) < interactionRadius)
         {
             StartConversation();
             DisableMovement();
