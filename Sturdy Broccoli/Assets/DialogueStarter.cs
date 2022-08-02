@@ -7,22 +7,6 @@ using UnityEngine.EventSystems;
 public class DialogueStarter : MonoBehaviour, IPointerDownHandler
 {
     public NPCConversation myConversation;
-    // private SturdyBroccoli playerControls;
-
-    // private void Awake()
-    // {
-    //     playerControls = new SturdyBroccoli();
-    // }
-
-    // private void OnEnable()
-    // {
-    //     playerControls.Enable();
-    // }
-
-    // private void OnDisable()
-    // {
-    //     playerControls.Disable();
-    // }
 
     public void StartConversation()
     {
