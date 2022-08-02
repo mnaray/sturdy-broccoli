@@ -1,4 +1,4 @@
-Tank destroyed,is done
+Texture name,is done
 Player,
 Base tiles,
 Bunker tiles,
@@ -15,7 +15,8 @@ Bombs,
 Explosions,
 Veg bush1,
 Veg tree1,
-Veg grass,y
+Veg bush2,
+Veg tree2,
 Vegetation tallgrass,
 Water,
 Tank,
