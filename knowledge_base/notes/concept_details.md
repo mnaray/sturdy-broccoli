@@ -7,6 +7,7 @@
 - Top-down 2D game 
 - Various eastereggs throughout the game
 - Collectible ressources on the map
+- Map has different zones (i. e. zones for gathering, quests, home, wasteland, etc.)
 - Quests with rewards
 
 
